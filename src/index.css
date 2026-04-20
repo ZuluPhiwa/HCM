@@ -9,3 +9,38 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+
+.custom-calendar .react-calendar__tile.has-event {
+  position: relative;
+  background-color: #eff6ff;
+  color: #1e40af;
+  font-weight: 600;
+}
+
+.custom-calendar .react-calendar__tile.has-event::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  background-color: #3b82f6;
+  border-radius: 50%;
+}
+
+.react-calendar {
+  border: none;
+  width: 100%;
+  background: transparent;
+}
+
+.react-calendar__tile {
+  border-radius: 12px;
+  padding: 12px 6px;
+}
+
+.react-calendar__navigation button {
+  border-radius: 12px;
+  padding: 10px;
+}

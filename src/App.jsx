@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+
+import Home from './Pages/Home'
+
+import Index from './Pages/Index'
+
 
 
 function App() {
@@ -9,7 +11,9 @@ function App() {
 
   return (
     <>
-  <h1 className='font-bolder bg-amber-600 font-stretch-110%'>Ya biiiiiiishhhhh</h1> 
+ 
+ <Index/> 
+
     </>
   )
 }
